@@ -1,0 +1,37 @@
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<nav class="py-5 px-3 flex items-center justify-between select-none">
+  <div class="flex items-center cursor-pointer">
+    <img class="h-8 w-8" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/274/drop-of-blood_1fa78.png" alt="Blood Requests" />
+    <span class="font-bold ml-2">Bloody</span>
+  </div>
+  <button class="bg-red-600 shadow-md hover:bg-red-700 hover:shadow-lg select-none active:translate-y-0.5 px-5 py-1 rounded-md text-white">Register</button>
+</nav>
+<section class="pt-5 px-10 text-center select-none">
+  <div class="max-w-md shadow-lg mx-auto py-10 rounded-md bg-white">
+    <h2 class="font-medium text-xl">Welcome Back!</h2>
+    <div class="p-2 bg-red-100 mx-5 my-2 text-gray-800 rounded-sm">Invalid Credentials!</div>
+    <form action="" onsubmit="return false">
+      <div class="my-3 flex flex-col mx-5 items-start">
+        <label class="text-xs my-2 text-gray-600" for="email">Email Address</label>
+        <input type="email" class="ring-2 ring-gray-400 focus:ring-red-500 outline-none rounded-sm p-2 w-full text-sm" placeholder="Enter Your Email" id="email" />
+        <span class="text-xs mt-2 text-red-600 font-medium">Enter a valid Email ID</span>
+      </div>
+      <div class="my-3 flex flex-col mx-5 items-start">
+        <label class="text-xs my-2 text-gray-600" for="password">Password</label>
+        <input type="password" class="ring-2 ring-gray-400 focus:ring-red-500 outline-none rounded-sm p-2 w-full text-sm" placeholder="Enter Password" id="password" />
+      </div>
+      <div class="my-5 flex flex-col mx-5 items-start">
+        <a href="#!" class="text-indigo-900 font-medium text-sm">Forget Password?</a>
+      </div>
+      <div class="my-3 flex flex-col mx-5 items-start">
+        <button class="bg-red-600 shadow-md hover:bg-red-700 hover:shadow-lg select-none w-full active:translate-y-0.5 px-5 py-2 rounded-md text-white">Login</button>
+      </div>
+      <div class="my-3 flex flex-col mx-5 items-start">
+        <button class="border-red-600 border-2 hover:bg-red-600 hover:text-white duration-150 transition-all shadow-md hover:shadow-lg select-none w-full active:translate-y-0.5 px-5 py-2 rounded-md text-red-600">Register</button>
+      </div>
+    </form>
+  </div>
+</section>
